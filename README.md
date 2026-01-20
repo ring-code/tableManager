@@ -1,6 +1,6 @@
 #dbManager
   
-  This Java application enables the user to manage a mySQL database. The GUI is written in german. It can be used for any MySQL database that has integer primary keys;
+  This Java application enables the user to manage a table in a mySQL database. The GUI is written in german. It can be used for any MySQL database that has integer primary keys;
   however, input validation (StringInputValidation Class) for new or updated entries is based on data for persons.
   Its impractical for databases with many tables as the user can only switch between tables and not search for them directly.
   After selecting the server and database via a menu, the user can:
@@ -14,6 +14,7 @@
   - View history table of added and deleted entries if the according tables have the necessary triggers
   - Disconnect from the database to set up a new connection
   
-  
-  
   Attention: The password/user data is not encrypted. Be cautious when using this for sensitive data!
+  
+  This was my first non-trivial piece of software after a few months of Java, i wrote it for my computer science class before i even knew about git.
+  It could be improved quite a bit (the constructors do way too much), but I’ll leave it as is to always remind me where I started.
